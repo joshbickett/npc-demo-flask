@@ -1,14 +1,20 @@
-from flask import Flask, request
-from flask import jsonify
+"""
+The main app
+"""
+from flask import Flask, request, jsonify
 import openai
-from prompts import get_character_prompt
 from flask_cors import CORS
+from prompts import get_character_prompt
+
 
 app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
 def index():
+    """
+    Hello world test endpoint
+    """
     return "hello world"
 
 @app.route('/chat', methods=['GET', 'POST'])
