@@ -3,7 +3,7 @@
 First, clone the repo to your local computer
 
 ```
-git clone https://github.com/joshbickett/npc-demo-flask-start.git
+git clone https://github.com/joshbickett/npc-demo-flask.git
 ```
 
 Change directory (CD) into the new folder.
