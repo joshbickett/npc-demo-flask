@@ -1,5 +1,9 @@
 # npc-demo-flask-start
 
+This repository is a non-player character Flask API. It is setup and ready to go!
+
+## setup instructions
+
 First, clone the repo to your local computer
 
 ```
