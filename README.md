@@ -1,4 +1,4 @@
-# npc-demo-flask-start
+# npc-demo-flask
 
 This repository is a non-player character Flask API. It is setup and ready to go!
 
